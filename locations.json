@@ -1,0 +1,802 @@
+[
+  {
+    "name": "Amazon Rainforest, Brazil",
+    "lat": -3.4653,
+    "lng": -62.2159,
+    "beforeImage": "images/amazon-rainforest-before.jpg",
+    "afterImage": "images/amazon-rainforest-after.jpg",
+    "facts": "The Amazon Rainforest is losing thousands of square kilometers each year due to illegal logging, mining, and agriculture, threatening global biodiversity."
+  },
+  {
+    "name": "Lake Chad, Africa",
+    "lat": 13.0000,
+    "lng": 14.0000,
+    "beforeImage": "images/lake-chad-before.jpg",
+    "afterImage": "images/lake-chad-after.jpg",
+    "facts": "Lake Chad has shrunk by over 90% since the 1960s due to climate change and excessive water usage, impacting millions who depend on it."
+  },
+  {
+    "name": "Aral Sea, Kazakhstan",
+    "lat": 45.0000,
+    "lng": 60.0000,
+    "beforeImage": "images/aral-sea-before.jpg",
+    "afterImage": "images/aral-sea-after.jpg",
+    "facts": "Once the fourth-largest lake in the world, the Aral Sea has almost completely dried up due to river diversion for agriculture."
+  },
+  {
+    "name": "Great Barrier Reef, Australia",
+    "lat": -18.2871,
+    "lng": 147.6992,
+    "beforeImage": "images/great-barrier-reef-before.jpg",
+    "afterImage": "images/great-barrier-reef-after.jpg",
+    "facts": "The Great Barrier Reef is experiencing massive coral bleaching due to rising ocean temperatures and acidification."
+  },
+  {
+    "name": "Mt. Kilimanjaro, Tanzania",
+    "lat": -3.0674,
+    "lng": 37.3556,
+    "beforeImage": "images/mt-kilimanjaro-before.jpg",
+    "afterImage": "images/mt-kilimanjaro-after.jpg",
+    "facts": "Mount Kilimanjaro's glaciers have decreased by over 80% in the last century due to warming temperatures and changing weather patterns."
+  },
+  {
+    "name": "Mekong River Delta, Vietnam",
+    "lat": 10.0333,
+    "lng": 105.7833,
+    "beforeImage": "images/mekong-river-delta-before.jpg",
+    "afterImage": "images/mekong-river-delta-after.jpg",
+    "facts": "The Mekong River Delta is sinking and shrinking due to upstream damming, sand mining, and sea-level rise, threatening agriculture and livelihoods."
+  },
+  {
+    "name": "Chernobyl, Ukraine",
+    "lat": 51.2766,
+    "lng": 30.2210,
+    "beforeImage": "images/chernobyl-before.jpg",
+    "afterImage": "images/chernobyl-after.jpg",
+    "facts": "The 1986 Chernobyl disaster released massive amounts of radioactive material, rendering the surrounding area uninhabitable for thousands of years."
+  },
+  {
+    "name": "Yellow River, China",
+    "lat": 35.0000,
+    "lng": 102.0000,
+    "beforeImage": "images/yellow-river-before.jpg",
+    "afterImage": "images/yellow-river-after.jpg",
+    "facts": "The Yellow River has been heavily polluted and altered by dams and agriculture, affecting water quality and downstream ecosystems."
+  },
+  {
+    "name": "Colorado River, USA",
+    "lat": 36.1126,
+    "lng": -112.1130,
+    "beforeImage": "images/colorado-river-before.jpg",
+    "afterImage": "images/colorado-river-after.jpg",
+    "facts": "The Colorado River no longer reaches the sea due to extensive damming and water extraction, impacting ecosystems and agriculture."
+  },
+  {
+    "name": "Dead Sea, Jordan",
+    "lat": 31.5590,
+    "lng": 35.4732,
+    "beforeImage": "images/dead-sea-before.jpg",
+    "afterImage": "images/dead-sea-after.jpg",
+    "facts": "The Dead Sea is rapidly shrinking due to water diversion from the Jordan River and mineral extraction, leading to sinkholes and habitat loss."
+  },
+  {
+    "name": "Lake Urmia, Iran",
+    "lat": 37.7000,
+    "lng": 45.3333,
+    "beforeImage": "images/lake-urmia-before.jpg",
+    "afterImage": "images/lake-urmia-after.jpg",
+    "facts": "Lake Urmia has shrunk dramatically due to prolonged droughts and excessive irrigation, threatening regional biodiversity."
+  },
+  {
+    "name": "Greenland Ice Sheet, Greenland",
+    "lat": 72.0000,
+    "lng": -40.0000,
+    "beforeImage": "images/greenland-ice-sheet-before.jpg",
+    "afterImage": "images/greenland-ice-sheet-after.jpg",
+    "facts": "The Greenland Ice Sheet is melting at an accelerating rate due to global warming, contributing significantly to sea-level rise."
+  },
+  {
+    "name": "Okjökull Glacier, Iceland",
+    "lat": 64.5783,
+    "lng": -20.9731,
+    "beforeImage": "images/okjokull-glacier-before.jpg",
+    "afterImage": "images/okjokull-glacier-after.jpg",
+    "facts": "Okjökull was Iceland’s first glacier lost to climate change, officially declared 'dead' in 2014."
+  },
+  {
+    "name": "Jakarta, Indonesia",
+    "lat": -6.2088,
+    "lng": 106.8456,
+    "beforeImage": "images/jakarta-before.jpg",
+    "afterImage": "images/jakarta-after.jpg",
+    "facts": "Jakarta is one of the fastest-sinking cities in the world due to groundwater extraction and sea-level rise."
+  },
+  {
+    "name": "Bangladesh Coast",
+    "lat": 22.0000,
+    "lng": 90.0000,
+    "beforeImage": "images/bangladesh-coast-before.jpg",
+    "afterImage": "images/bangladesh-coast-after.jpg",
+    "facts": "The Bangladesh coast faces severe flooding and displacement due to sea-level rise and intense cyclones linked to climate change."
+  },
+  {
+    "name": "Tuvalu, Pacific Ocean",
+    "lat": -7.1095,
+    "lng": 177.6493,
+    "beforeImage": "images/tuvalu-before.jpg",
+    "afterImage": "images/tuvalu-after.jpg",
+    "facts": "Tuvalu is at risk of becoming uninhabitable due to rising sea levels, making it a symbol of climate vulnerability."
+  },
+  {
+    "name": "New Orleans, USA",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "beforeImage": "images/new-orleans-before.jpg",
+    "afterImage": "images/new-orleans-after.jpg",
+    "facts": "New Orleans has experienced catastrophic flooding, most notably during Hurricane Katrina, worsened by wetland loss and rising seas."
+  },
+  {
+    "name": "Miami, USA",
+    "lat": 25.7617,
+    "lng": -80.1918,
+    "beforeImage": "images/miami-before.jpg",
+    "afterImage": "images/miami-after.jpg",
+    "facts": "Miami faces regular flooding from sea-level rise, with climate change threatening its long-term habitability and infrastructure."
+  },
+  {
+    "name": "Kiribati",
+    "lat": 1.8709,
+    "lng": -157.3630,
+    "beforeImage": "images/kiribati-before.jpg",
+    "afterImage": "images/kiribati-after.jpg",
+    "facts": "Kiribati is among the first nations expected to be submerged by rising seas, forcing future climate migration."
+  },
+  {
+    "name": "Maldives",
+    "lat": 3.2028,
+    "lng": 73.2207,
+    "beforeImage": "images/maldives-before.jpg",
+    "afterImage": "images/maldives-after.jpg",
+    "facts": "The Maldives, composed of low-lying islands, faces existential threats from rising sea levels."
+  },
+  {
+    "name": "Fiji",
+    "lat": -17.7134,
+    "lng": 178.0650,
+    "beforeImage": "images/fiji-before.jpg",
+    "afterImage": "images/fiji-after.jpg",
+    "facts": "Fiji is experiencing stronger storms and coastal erosion due to climate change, displacing coastal communities."
+  },
+  {
+    "name": "Marshall Islands",
+    "lat": 7.1315,
+    "lng": 171.1845,
+    "beforeImage": "images/marshall-islands-before.jpg",
+    "afterImage": "images/marshall-islands-after.jpg",
+    "facts": "The Marshall Islands are losing land to the sea, with rising tides flooding homes and contaminating freshwater supplies."
+  },
+  {
+    "name": "Venice, Italy",
+    "lat": 45.4408,
+    "lng": 12.3155,
+    "beforeImage": "images/venice-before.jpg",
+    "afterImage": "images/venice-after.jpg",
+    "facts": "Venice is sinking and regularly floods due to sea-level rise and subsidence, threatening its historical heritage."
+  },
+  {
+    "name": "Cape Town, South Africa",
+    "lat": -33.9249,
+    "lng": 18.4241,
+    "beforeImage": "images/cape-town-before.jpg",
+    "afterImage": "images/cape-town-after.jpg",
+    "facts": "Cape Town narrowly avoided running out of water during its 2018 drought, highlighting climate vulnerability in urban areas."
+  },
+  {
+    "name": "Himalayas, Nepal",
+    "lat": 28.5983,
+    "lng": 83.9311,
+    "beforeImage": "images/himalayas-before.jpg",
+    "afterImage": "images/himalayas-after.jpg",
+    "facts": "Glaciers in the Himalayas are rapidly melting, threatening water supplies for millions in South Asia."
+  },
+  {
+    "name": "Fukushima, Japan",
+    "lat": 37.4215,
+    "lng": 141.0328,
+    "beforeImage": "images/fukushima-before.jpg",
+    "afterImage": "images/fukushima-after.jpg",
+    "facts": "The 2011 Fukushima nuclear disaster contaminated land and ocean, displacing thousands and raising concerns about nuclear safety."
+  },
+  {
+    "name": "Beijing, China",
+    "lat": 39.9042,
+    "lng": 116.4074,
+    "beforeImage": "images/beijing-before.jpg",
+    "afterImage": "images/beijing-after.jpg",
+    "facts": "Beijing frequently suffers from severe air pollution due to industrial activity and traffic, affecting public health."
+  },
+  {
+    "name": "Sundarbans, India/Bangladesh",
+    "lat": 21.9497,
+    "lng": 89.1833,
+    "beforeImage": "images/sundarbans-before.jpg",
+    "afterImage": "images/sundarbans-after.jpg",
+    "facts": "The Sundarbans mangrove forest is threatened by rising sea levels and increased salinity, endangering its unique biodiversity."
+  },
+  {
+    "name": "Sahara Desert, Niger",
+    "lat": 18.0000,
+    "lng": 10.0000,
+    "beforeImage": "images/sahara-desert-before.jpg",
+    "afterImage": "images/sahara-desert-after.jpg",
+    "facts": "The Sahara Desert is expanding southward, contributing to desertification and displacement in the Sahel region."
+  },
+  {
+    "name": "Gobi Desert, China",
+    "lat": 42.5903,
+    "lng": 105.0043,
+    "beforeImage": "images/gobi-desert-before.jpg",
+    "afterImage": "images/gobi-desert-after.jpg",
+    "facts": "The Gobi Desert is growing due to overgrazing, deforestation, and climate change, pushing into once-arable land."
+  },
+  {
+    "name": "Siberian Tundra, Russia",
+    "lat": 67.0000,
+    "lng": 100.0000,
+    "beforeImage": "images/siberian-tundra-before.jpg",
+    "afterImage": "images/siberian-tundra-after.jpg",
+    "facts": "The Siberian tundra is thawing due to rising temperatures, releasing large amounts of methane and destabilizing ecosystems."
+  },
+  {
+    "name": "Lake Poopó, Bolivia",
+    "lat": -18.5300,
+    "lng": -67.0300,
+    "beforeImage": "images/lake-poopo-before.jpg",
+    "afterImage": "images/lake-poopo-after.jpg",
+    "facts": "Lake Poopó has almost completely dried up due to climate change and water diversion, devastating local livelihoods."
+  },
+  {
+    "name": "Borneo, Indonesia",
+    "lat": 0.7893,
+    "lng": 113.9213,
+    "beforeImage": "images/borneo-before.jpg",
+    "afterImage": "images/borneo-after.jpg",
+    "facts": "Borneo's rainforests are being cleared rapidly for palm oil plantations, threatening orangutan habitats and biodiversity."
+  },
+  {
+    "name": "Coral Triangle, Philippines",
+    "lat": 2.0000,
+    "lng": 125.0000,
+    "beforeImage": "images/coral-triangle-before.jpg",
+    "afterImage": "images/coral-triangle-after.jpg",
+    "facts": "The Coral Triangle, a marine biodiversity hotspot, is threatened by overfishing, pollution, and coral bleaching."
+  },
+  {
+    "name": "Antarctic Peninsula, Antarctica",
+    "lat": -70.0000,
+    "lng": -64.0000,
+    "beforeImage": "images/antarctic-peninsula-before.jpg",
+    "afterImage": "images/antarctic-peninsula-after.jpg",
+    "facts": "The Antarctic Peninsula is one of the fastest-warming places on Earth, leading to ice shelf collapses and rising sea levels."
+  },
+  {
+    "name": "Niger River, Mali",
+    "lat": 13.5000,
+    "lng": -4.0000,
+    "beforeImage": "images/niger-river-before.jpg",
+    "afterImage": "images/niger-river-after.jpg",
+    "facts": "The Niger River is increasingly threatened by drought, desertification, and upstream dam projects."
+  },
+  {
+    "name": "Oroville Dam, USA",
+    "lat": 39.5381,
+    "lng": -121.4925,
+    "beforeImage": "images/oroville-dam-before.jpg",
+    "afterImage": "images/oroville-dam-after.jpg",
+    "facts": "The Oroville Dam crisis in 2017 highlighted aging infrastructure and the increasing risk of extreme weather events."
+  },
+  {
+    "name": "Dakar, Senegal",
+    "lat": 14.6928,
+    "lng": -17.4467,
+    "beforeImage": "images/dakar-before.jpg",
+    "afterImage": "images/dakar-after.jpg",
+    "facts": "Dakar faces severe coastal erosion and flooding driven by rising sea levels and unregulated construction."
+  },
+  {
+    "name": "Sydney, Australia",
+    "lat": -33.8688,
+    "lng": 151.2093,
+    "beforeImage": "images/sydney-before.jpg",
+    "afterImage": "images/sydney-after.jpg",
+    "facts": "Sydney has endured extreme heatwaves and bushfires, both intensified by climate change."
+  },
+  {
+    "name": "Murray-Darling Basin, Australia",
+    "lat": -34.0000,
+    "lng": 145.0000,
+    "beforeImage": "images/murray-darling-before.jpg",
+    "afterImage": "images/murray-darling-after.jpg",
+    "facts": "The Murray-Darling Basin is under severe stress from over-extraction of water and prolonged droughts."
+  },
+  {
+    "name": "Athabasca Oil Sands, Canada",
+    "lat": 57.0000,
+    "lng": -111.0000,
+    "beforeImage": "images/athabasca-oil-sands-before.jpg",
+    "afterImage": "images/athabasca-oil-sands-after.jpg",
+    "facts": "The Athabasca Oil Sands are a major source of carbon emissions and have dramatically altered the surrounding boreal forest."
+  },
+  {
+    "name": "Nile Delta, Egypt",
+    "lat": 30.9200,
+    "lng": 31.0200,
+    "beforeImage": "images/nile-delta-before.jpg",
+    "afterImage": "images/nile-delta-after.jpg",
+    "facts": "The Nile Delta is shrinking due to sea-level rise and damming upstream, threatening agriculture and settlements."
+  },
+  {
+    "name": "Hoover Dam, USA",
+    "lat": 36.0156,
+    "lng": -114.7378,
+    "beforeImage": "images/hoover-dam-before.jpg",
+    "afterImage": "images/hoover-dam-after.jpg",
+    "facts": "Water levels at the Hoover Dam have dropped drastically due to prolonged drought and overuse in the Southwest."
+  },
+  {
+    "name": "Yosemite, USA",
+    "lat": 37.8651,
+    "lng": -119.5383,
+    "beforeImage": "images/yosemite-before.jpg",
+    "afterImage": "images/yosemite-after.jpg",
+    "facts": "Yosemite has faced increased wildfires and tree loss due to warming temperatures and prolonged dry seasons."
+  },
+  {
+    "name": "Rondônia, Brazil",
+    "lat": -11.0000,
+    "lng": -63.0000,
+    "beforeImage": "images/rondonia-before.jpg",
+    "afterImage": "images/rondonia-after.jpg",
+    "facts": "Rondônia has seen rapid deforestation for cattle grazing, contributing significantly to Amazon rainforest loss."
+  },
+  {
+    "name": "Caribbean Coral Reefs",
+    "lat": 17.0000,
+    "lng": -75.0000,
+    "beforeImage": "images/caribbean-coral-reefs-before.jpg",
+    "afterImage": "images/caribbean-coral-reefs-after.jpg",
+    "facts": "Caribbean coral reefs have experienced mass bleaching events due to ocean warming and pollution."
+  },
+  {
+    "name": "Hurricane Katrina Flood Zone, USA",
+    "lat": 29.9511,
+    "lng": -90.0715,
+    "beforeImage": "images/katrina-zone-before.jpg",
+    "afterImage": "images/katrina-zone-after.jpg",
+    "facts": "The Hurricane Katrina flood zone highlights the vulnerabilities of coastal cities to climate-amplified storms."
+  },
+  {
+    "name": "Dubai Coastline, UAE",
+    "lat": 25.276987,
+    "lng": 55.296249,
+    "beforeImage": "images/dubai-coastline-before.jpg",
+    "afterImage": "images/dubai-coastline-after.jpg",
+    "facts": "Dubai’s massive coastal developments have reshaped marine ecosystems and increased shoreline vulnerability."
+  },
+  {
+    "name": "Mississippi River Delta, USA",
+    "lat": 29.0000,
+    "lng": -90.0000,
+    "beforeImage": "images/mississippi-delta-before.jpg",
+    "afterImage": "images/mississippi-delta-after.jpg",
+    "facts": "The Mississippi River Delta is rapidly losing land due to erosion, subsidence, and rising sea levels."
+  },
+  {
+    "name": "Mount Everest Base Camp, Nepal",
+    "lat": 28.0026,
+    "lng": 86.8528,
+    "beforeImage": "images/everest-base-camp-before.jpg",
+    "afterImage": "images/everest-base-camp-after.jpg",
+    "facts": "Glacial retreat near Mount Everest Base Camp is accelerating, exposing rock and altering climbing routes."
+  },
+  {
+    "name": "Timbuktu, Mali",
+    "lat": 16.7666,
+    "lng": -3.0026,
+    "beforeImage": "images/timbuktu-before.jpg",
+    "afterImage": "images/timbuktu-after.jpg",
+    "facts": "Timbuktu is facing encroaching desertification due to climate change and land degradation in the Sahel region."
+  },
+  {
+    "name": "Glacier National Park, USA",
+    "lat": 48.6967,
+    "lng": -113.7183,
+    "beforeImage": "images/glacier-national-park-before.jpg",
+    "afterImage": "images/glacier-national-park-after.jpg",
+    "facts": "Glacier National Park has lost the majority of its glaciers over the past century due to warming temperatures."
+  },
+  {
+    "name": "Alps, Europe",
+    "lat": 46.8876,
+    "lng": 9.6570,
+    "beforeImage": "images/alps-before.jpg",
+    "afterImage": "images/alps-after.jpg",
+    "facts": "The Alps are losing snow cover and glaciers rapidly, threatening water supplies and winter tourism."
+  },
+  {
+    "name": "Andes Mountains, South America",
+    "lat": -13.1631,
+    "lng": -72.5450,
+    "beforeImage": "images/andes-mountains-before.jpg",
+    "afterImage": "images/andes-mountains-after.jpg",
+    "facts": "Glaciers in the Andes are melting quickly, reducing freshwater availability for millions in the region."
+  },
+  {
+    "name": "Patagonia, Argentina",
+    "lat": -49.0000,
+    "lng": -72.0000,
+    "beforeImage": "images/patagonia-before.jpg",
+    "afterImage": "images/patagonia-after.jpg",
+    "facts": "Patagonia’s glaciers are among the fastest melting in the world due to rising global temperatures."
+  },
+  {
+    "name": "Mount Elgon, Uganda",
+    "lat": 1.1333,
+    "lng": 34.5833,
+    "beforeImage": "images/mount-elgon-before.jpg",
+    "afterImage": "images/mount-elgon-after.jpg",
+    "facts": "Mount Elgon’s ecosystem is under threat from deforestation and land use pressures, endangering local water sources."
+  },
+  {
+    "name": "Sequoia National Forest, USA",
+    "lat": 36.0001,
+    "lng": -118.5009,
+    "beforeImage": "images/sequoia-before.jpg",
+    "afterImage": "images/sequoia-after.jpg",
+    "facts": "Sequoia National Forest has suffered from severe wildfires fueled by prolonged drought and insect infestations."
+  },
+  {
+    "name": "Tar Creek, USA",
+    "lat": 36.9531,
+    "lng": -94.8366,
+    "beforeImage": "images/tar-creek-before.jpg",
+    "afterImage": "images/tar-creek-after.jpg",
+    "facts": "Tar Creek is one of the most toxic Superfund sites in the U.S., polluted by decades of lead and zinc mining."
+  },
+  {
+    "name": "Love Canal, USA",
+    "lat": 43.0906,
+    "lng": -78.9602,
+    "beforeImage": "images/love-canal-before.jpg",
+    "afterImage": "images/love-canal-after.jpg",
+    "facts": "Love Canal became a symbol of industrial pollution after a toxic waste dump caused a health crisis in the 1970s."
+  },
+  {
+    "name": "Minamata, Japan",
+    "lat": 32.2160,
+    "lng": 130.4036,
+    "beforeImage": "images/minamata-before.jpg",
+    "afterImage": "images/minamata-after.jpg",
+    "facts": "Minamata suffered one of the worst industrial mercury poisoning disasters, affecting generations of residents."
+  },
+  {
+    "name": "Bhopal, India",
+    "lat": 23.2599,
+    "lng": 77.4126,
+    "beforeImage": "images/bhopal-before.jpg",
+    "afterImage": "images/bhopal-after.jpg",
+    "facts": "The 1984 Bhopal gas tragedy exposed over half a million people to toxic chemicals in one of the worst industrial disasters."
+  },
+  {
+    "name": "Exxon Valdez Spill Site, USA",
+    "lat": 60.8438,
+    "lng": -146.8580,
+    "beforeImage": "images/exxon-valdez-before.jpg",
+    "afterImage": "images/exxon-valdez-after.jpg",
+    "facts": "The Exxon Valdez oil spill devastated Alaskan marine life and remains one of the most destructive oil spills in history."
+  },
+  {
+    "name": "Deepwater Horizon Spill Site, USA",
+    "lat": 28.7384,
+    "lng": -88.3659,
+    "beforeImage": "images/deepwater-horizon-before.jpg",
+    "afterImage": "images/deepwater-horizon-after.jpg",
+    "facts": "The Deepwater Horizon disaster spilled millions of barrels of oil into the Gulf of Mexico, with long-lasting ecological damage."
+  },
+  {
+    "name": "Norilsk, Russia",
+    "lat": 69.3558,
+    "lng": 88.1893,
+    "beforeImage": "images/norilsk-before.jpg",
+    "afterImage": "images/norilsk-after.jpg",
+    "facts": "Norilsk is one of the most polluted cities in the world due to decades of heavy metal smelting operations."
+  },
+  {
+    "name": "Niger Delta, Nigeria",
+    "lat": 4.7500,
+    "lng": 6.0000,
+    "beforeImage": "images/niger-delta-before.jpg",
+    "afterImage": "images/niger-delta-after.jpg",
+    "facts": "The Niger Delta suffers from massive oil spills and gas flaring, devastating the environment and local communities."
+  },
+  {
+    "name": "Gulf of Mexico Dead Zone, USA",
+    "lat": 29.0000,
+    "lng": -90.0000,
+    "beforeImage": "images/gulf-dead-zone-before.jpg",
+    "afterImage": "images/gulf-dead-zone-after.jpg",
+    "facts": "The Gulf of Mexico Dead Zone is caused by agricultural runoff, creating low-oxygen waters that kill marine life."
+  },
+  {
+    "name": "Delhi, India",
+    "lat": 28.6139,
+    "lng": 77.2090,
+    "beforeImage": "images/delhi-before.jpg",
+    "afterImage": "images/delhi-after.jpg",
+    "facts": "Delhi frequently ranks among the most polluted cities globally, with hazardous air quality levels impacting public health."
+  },
+  {
+    "name": "Mexico City, Mexico",
+    "lat": 19.4326,
+    "lng": -99.1332,
+    "beforeImage": "images/mexico-city-before.jpg",
+    "afterImage": "images/mexico-city-after.jpg",
+    "facts": "Mexico City faces air pollution, water scarcity, and ground subsidence due to rapid urbanization and overuse of resources."
+  },
+  {
+    "name": "Cairo, Egypt",
+    "lat": 30.0444,
+    "lng": 31.2357,
+    "beforeImage": "images/cairo-before.jpg",
+    "afterImage": "images/cairo-after.jpg",
+    "facts": "Cairo experiences severe smog and water issues, exacerbated by population growth and limited natural resources."
+  },
+  {
+    "name": "Lagos, Nigeria",
+    "lat": 6.5244,
+    "lng": 3.3792,
+    "beforeImage": "images/lagos-before.jpg",
+    "afterImage": "images/lagos-after.jpg",
+    "facts": "Lagos is rapidly urbanizing with challenges including flooding, pollution, and strain on infrastructure due to climate and population pressures."
+  },
+  {
+    "name": "São Paulo, Brazil",
+    "lat": -23.5505,
+    "lng": -46.6333,
+    "beforeImage": "images/sao-paulo-before.jpg",
+    "afterImage": "images/sao-paulo-after.jpg",
+    "facts": "São Paulo faces urban air pollution and water stress due to sprawling growth and frequent droughts."
+  },
+  {
+    "name": "Dhaka, Bangladesh",
+    "lat": 23.8103,
+    "lng": 90.4125,
+    "beforeImage": "images/dhaka-before.jpg",
+    "afterImage": "images/dhaka-after.jpg",
+    "facts": "Dhaka suffers from extreme air and water pollution, worsened by rapid population growth and industrial waste."
+  },
+  {
+    "name": "Karachi, Pakistan",
+    "lat": 24.8607,
+    "lng": 67.0011,
+    "beforeImage": "images/karachi-before.jpg",
+    "afterImage": "images/karachi-after.jpg",
+    "facts": "Karachi is facing rising sea levels and heatwaves, compounding its urban pollution and infrastructure challenges."
+  },
+  {
+    "name": "Manila, Philippines",
+    "lat": 14.5995,
+    "lng": 120.9842,
+    "beforeImage": "images/manila-before.jpg",
+    "afterImage": "images/manila-after.jpg",
+    "facts": "Manila is highly vulnerable to typhoons and flooding due to climate change and poor drainage systems."
+  },
+  {
+    "name": "Central Kalimantan, Indonesia",
+    "lat": -1.6815,
+    "lng": 113.3824,
+    "beforeImage": "images/central-kalimantan-before.jpg",
+    "afterImage": "images/central-kalimantan-after.jpg",
+    "facts": "Central Kalimantan has seen extensive deforestation and peatland fires linked to palm oil expansion."
+  },
+  {
+    "name": "Sumatra, Indonesia",
+    "lat": -0.5897,
+    "lng": 101.3431,
+    "beforeImage": "images/sumatra-before.jpg",
+    "afterImage": "images/sumatra-after.jpg",
+    "facts": "Sumatra’s rainforests are disappearing rapidly due to logging and agriculture, threatening endangered species."
+  },
+  {
+    "name": "Chaco Forest, Paraguay",
+    "lat": -22.5000,
+    "lng": -60.0000,
+    "beforeImage": "images/chaco-forest-before.jpg",
+    "afterImage": "images/chaco-forest-after.jpg",
+    "facts": "The Chaco Forest is losing tree cover at alarming rates due to ranching and unsustainable land use."
+  },
+  {
+    "name": "Papua New Guinea",
+    "lat": -6.3150,
+    "lng": 143.9555,
+    "beforeImage": "images/papua-new-guinea-before.jpg",
+    "afterImage": "images/papua-new-guinea-after.jpg",
+    "facts": "Papua New Guinea’s forests are under pressure from logging and mining, affecting indigenous communities."
+  },
+  {
+    "name": "Belize Barrier Reef",
+    "lat": 17.4895,
+    "lng": -88.2029,
+    "beforeImage": "images/belize-reef-before.jpg",
+    "afterImage": "images/belize-reef-after.jpg",
+    "facts": "The Belize Barrier Reef faces coral bleaching from warming seas and damage from tourism and fishing."
+  },
+  {
+    "name": "Florida Keys, USA",
+    "lat": 24.5551,
+    "lng": -81.7800,
+    "beforeImage": "images/florida-keys-before.jpg",
+    "afterImage": "images/florida-keys-after.jpg",
+    "facts": "The Florida Keys are losing coral and land to rising seas and hurricanes intensified by climate change."
+  },
+  {
+    "name": "Seychelles",
+    "lat": -4.6796,
+    "lng": 55.4920,
+    "beforeImage": "images/seychelles-before.jpg",
+    "afterImage": "images/seychelles-after.jpg",
+    "facts": "Seychelles’ beaches and corals are at risk due to rising seas and ocean acidification."
+  },
+  {
+    "name": "Red Sea Coral Reefs",
+    "lat": 20.0000,
+    "lng": 38.5000,
+    "beforeImage": "images/red-sea-before.jpg",
+    "afterImage": "images/red-sea-after.jpg",
+    "facts": "Red Sea coral reefs, once thought resilient, are showing signs of bleaching from marine heatwaves."
+  },
+  {
+    "name": "Marshall Islands Reefs",
+    "lat": 7.1315,
+    "lng": 171.1845,
+    "beforeImage": "images/marshall-reefs-before.jpg",
+    "afterImage": "images/marshall-reefs-after.jpg",
+    "facts": "Coral reefs around the Marshall Islands are dying off due to warming waters and rising sea levels."
+  },
+  {
+    "name": "Great Salt Lake, USA",
+    "lat": 41.1135,
+    "lng": -112.5746,
+    "beforeImage": "images/great-salt-lake-before.jpg",
+    "afterImage": "images/great-salt-lake-after.jpg",
+    "facts": "The Great Salt Lake has reached record lows due to prolonged drought and water diversion."
+  },
+  {
+    "name": "Mono Lake, USA",
+    "lat": 38.0078,
+    "lng": -119.0177,
+    "beforeImage": "images/mono-lake-before.jpg",
+    "afterImage": "images/mono-lake-after.jpg",
+    "facts": "Mono Lake has been shrinking due to water exports, threatening its unique saline ecosystem."
+  },
+  {
+    "name": "Loess Plateau, China",
+    "lat": 35.0000,
+    "lng": 107.0000,
+    "beforeImage": "images/loess-plateau-before.jpg",
+    "afterImage": "images/loess-plateau-after.jpg",
+    "facts": "The Loess Plateau has suffered from severe erosion and desertification, though reforestation efforts are improving it."
+  },
+  {
+    "name": "Mount Kenya, Kenya",
+    "lat": -0.1521,
+    "lng": 37.3084,
+    "beforeImage": "images/mount-kenya-before.jpg",
+    "afterImage": "images/mount-kenya-after.jpg",
+    "facts": "Glaciers on Mount Kenya are melting fast, jeopardizing water sources for surrounding communities."
+  },
+  {
+    "name": "Lake Victoria, Africa",
+    "lat": -1.0000,
+    "lng": 33.0000,
+    "beforeImage": "images/lake-victoria-before.jpg",
+    "afterImage": "images/lake-victoria-after.jpg",
+    "facts": "Lake Victoria is under threat from overfishing, invasive species, and increasing water pollution."
+  },
+  {
+    "name": "Lake Baikal, Russia",
+    "lat": 53.5587,
+    "lng": 108.1650,
+    "beforeImage": "images/lake-baikal-before.jpg",
+    "afterImage": "images/lake-baikal-after.jpg",
+    "facts": "Lake Baikal, the world’s deepest lake, faces pollution and warming that threatens its unique species."
+  },
+  {
+    "name": "Indus River, Pakistan",
+    "lat": 29.8000,
+    "lng": 70.5000,
+    "beforeImage": "images/indus-river-before.jpg",
+    "afterImage": "images/indus-river-after.jpg",
+    "facts": "The Indus River is drying due to glacial melt and upstream water diversion, affecting millions of people."
+  },
+  {
+    "name": "Yellowstone National Park, USA",
+    "lat": 44.4279,
+    "lng": -110.5885,
+    "beforeImage": "images/yellowstone-before.jpg",
+    "afterImage": "images/yellowstone-after.jpg",
+    "facts": "Yellowstone’s climate is changing, impacting its iconic geysers, wildlife, and fire patterns."
+  },
+  {
+    "name": "Volga River Delta, Russia",
+    "lat": 45.8990,
+    "lng": 47.9884,
+    "beforeImage": "images/volga-delta-before.jpg",
+    "afterImage": "images/volga-delta-after.jpg",
+    "facts": "The Volga River Delta is shrinking due to water regulation and pollution, reducing fish populations and wetlands."
+  },
+  {
+    "name": "Zambezi River, Zambia",
+    "lat": -15.4167,
+    "lng": 28.2833,
+    "beforeImage": "images/zambezi-river-before.jpg",
+    "afterImage": "images/zambezi-river-after.jpg",
+    "facts": "The Zambezi River is impacted by erratic rainfall and dam projects, threatening hydroelectric and ecosystem stability."
+  },
+  {
+    "name": "Ivindo National Park, Gabon",
+    "lat": 0.3150,
+    "lng": 12.3651,
+    "beforeImage": "images/ivindo-before.jpg",
+    "afterImage": "images/ivindo-after.jpg",
+    "facts": "Ivindo National Park, a biodiversity haven, is at risk from illegal logging and mining expansion."
+  },
+  {
+    "name": "Manú National Park, Peru",
+    "lat": -11.8753,
+    "lng": -71.8756,
+    "beforeImage": "images/manu-before.jpg",
+    "afterImage": "images/manu-after.jpg",
+    "facts": "Manú National Park, one of the most biodiverse places on Earth, faces illegal road construction and logging threats."
+  },
+  {
+    "name": "Amazon Basin, Peru",
+    "lat": -5.0000,
+    "lng": -73.0000,
+    "beforeImage": "images/amazon-basin-before.jpg",
+    "afterImage": "images/amazon-basin-after.jpg",
+    "facts": "The Amazon Basin in Peru is losing forest to illegal mining and agriculture, endangering indigenous territories."
+  },
+  {
+    "name": "Bogotá River, Colombia",
+    "lat": 4.6000,
+    "lng": -74.0833,
+    "beforeImage": "images/bogota-river-before.jpg",
+    "afterImage": "images/bogota-river-after.jpg",
+    "facts": "The Bogotá River is one of the most polluted rivers in Colombia due to untreated industrial and domestic waste."
+  },
+  {
+    "name": "San Francisco Bay, USA",
+    "lat": 37.7749,
+    "lng": -122.4194,
+    "beforeImage": "images/sf-bay-before.jpg",
+    "afterImage": "images/sf-bay-after.jpg",
+    "facts": "San Francisco Bay is affected by rising seas and habitat loss from development and shoreline hardening."
+  },
+  {
+    "name": "Salton Sea, USA",
+    "lat": 33.2596,
+    "lng": -115.6155,
+    "beforeImage": "images/salton-sea-before.jpg",
+    "afterImage": "images/salton-sea-after.jpg",
+    "facts": "The Salton Sea is shrinking rapidly, exposing toxic dust and threatening surrounding communities."
+  },
+  {
+    "name": "Jharia Coalfield, India",
+    "lat": 23.7500,
+    "lng": 86.4200,
+    "beforeImage": "images/jharia-coalfield-before.jpg",
+    "afterImage": "images/jharia-coalfield-after.jpg",
+    "facts": "Jharia is plagued by underground coal fires and severe air pollution, impacting thousands of residents."
+  }
+]

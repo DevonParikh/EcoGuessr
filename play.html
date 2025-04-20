@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Play | EcoGuessr</title>
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <header>
+    <h1>EcoGuessr</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="play.html">Play</a>
+      <a href="donate.html">Donate</a>
+    </nav>
+  </header>
+
+<main>
+  <section class="play-hero">
+    <h2>Choose Your Challenge</h2>
+    <p>Pick a game mode and start exploring the world and its environmental stories.</p>
+  </section>
+
+  <section class="mode-grid">
+    <div class="mode-card">
+      <h3>🌍 Classic</h3>
+      <p>5 rounds. No time limit. Great for casual play and learning.</p>
+      <a href="game.html?mode=classic" class="mode-button">Start Classic</a>
+    </div>
+    <div class="mode-card">
+      <h3>⏱️ Timed</h3>
+      <p>5 rounds. 30 seconds per round. Test your speed and accuracy.</p>
+      <a href="game.html?mode=timed" class="mode-button">Start Timed</a>
+    </div>
+    <div class="mode-card">
+      <h3>🎯 Custom Game</h3>
+      <form id="customGameForm" class="custom-form">
+        <label for="rounds">Rounds:</label>
+        <input type="number" id="rounds" name="rounds" min="5" max="20" value="5" />
+
+        <label for="time">Time per Round (seconds):</label>
+        <input type="number" id="time" name="time" min="10" max="300" value="60" />
+
+        <button type="submit" class="mode-button">Start Custom</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+  <footer>
+    <p>© 2025 EcoGuessr</p>
+  </footer>
+
+  <script>
+    function startGame(mode) {
+      alert("Starting game in mode: " + mode);
+      // Later we'll route to actual game logic
+    }
+  </script>
+  <script>
+    document.getElementById("customGameForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      const rounds = document.getElementById("rounds").value;
+      const time = document.getElementById("time").value;
+      window.location.href = `game.html?mode=custom&rounds=${rounds}&time=${time}`;
+    });
+  </script>  
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoGuessr Game</title>
+  <!-- Google Fonts: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>EcoGuessr</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="play.html">Play</a>
+      <a href="donate.html">Donate</a>
+    </nav>
+  </header>
+
+  <main>
+    <div id="scorePop" class="score-pop"></div>
+    <section id="game" class="game-container">
+        <div class="game-header">
+          <span id="roundIndicator" class="badge badge-round">Round 1 of X</span>
+          <span id="scoreBadge" class="badge badge-score">Score: 0</span>
+        </div>
+        <div id="roundContent" class="fade-container">
+          <div class="image-frame">
+            <img id="locationImage" src="images/sample-before.jpg" alt="Before image" />
+          </div>
+          <div id="timerBar" class="timer-bar" style="display: none;">
+            <strong>Time left: <span id="timer">30</span> seconds</strong>
+          </div>
+          <p class="game-instruction">Click on the map to guess where you think this place is.</p>
+          <div id="map" class="map-container"></div>
+        </div>
+      
+        <button onclick="submitGuess()">Submit Guess</button>
+    </section>
+    <section id="result" style="display:none;">
+      <h3>Result</h3>
+      <p id="actualLocation"></p>
+      <div id="resultMap" class="map-container map-disabled"></div>
+      <img id="afterImage" src="images/sample-after.jpg" alt="After image" width="100%" />
+      <p id="locationFacts">Facts about this location...</p>
+      <button onclick="nextRound()">Next Round</button>
+    </section>
+    <section id="gameOver" style="display:none; text-align:center; padding: 2em;">
+        <h2>Game Over</h2>
+        <p id="finalScore" style="font-size: 1.5em; font-weight: bold; color: #2e7d32;"></p>
+      
+        <div style="margin: 2em 0;">
+          <p>Thanks for playing EcoGuessr!</p>
+          <p>Think you can do better? Try again or challenge a friend!</p>
+        </div>
+      
+        <div class="gameover-buttons">
+          <a href="#" onclick="restartGame(); return false;" class="mode-button">Play Again</a>
+          <a href="index.html" class="mode-button">Back to Home</a>
+        </div>
+      
+        <!-- 💚 Donation CTA Box -->
+        <div class="donation-cta">
+          <h3>Enjoyed the Game? Help the Planet 🌍</h3>
+          <p>If you had fun or learned something new, consider supporting real-world environmental efforts.</p>
+          <a href="donate.html" class="mode-button">Donate Now</a>
+        </div>
+      </section>      
+  </main>
+
+  <footer>
+    <p>© 2025 EcoGuessr</p>
+  </footer>
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="src/pages/Game.js"></script>
+  <!-- Confetti JS -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="src/pages/Game.js"></script>
+</body>
+</html>
