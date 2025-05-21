@@ -1,0 +1,24 @@
+{
+  "name": "ecoguessr",
+  "version": "1.0.0",
+  "description": "A location guessing game focused on environmental awareness, inspired by GeoGuessr.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevonParikh/EcoGuessr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevonParikh/EcoGuessr/issues"
+  },
+  "homepage": "https://github.com/DevonParikh/EcoGuessr#readme",
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
